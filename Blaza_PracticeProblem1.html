@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Change Color </title>
+	<style>
+	
+	.color-option{
+	
+	width: 50px;
+	height: 50px;
+	margin: 5px
+	border-radius: 50%;
+	cursor: pointer;
+	}
+	</style>
+	</head>
+	<body>
+	
+	<div class="color-option" style="background-color: Purple" onclick="changeBackgrouondColor('Purple')">Purple</div>
+	<div class="color-option" style="background-color: Navy" onclick="changeBackgrouondColor('Navy')">Navy</div>
+	<div class="color-option" style="background-color: Maroon" onclick="changeBackgrouondColor('Maroon')">Maroon</div>
+	
+	<script>
+		function changeBackgrouondColor(color){
+		document.body.style.backgroundColor = color;
+		}
+	</script>
+	
+	</body>
+	</html>
